@@ -1,4 +1,6 @@
 [English](README.md) | **简体中文**
+
+[![](https://jitpack.io/v/hfc123/sewing.svg)](https://jitpack.io/#hfc123/sewing)
 # 导入
 ```
 implementation 'com.github.hfc123.sewing:sewinglib:v1.0.3'
@@ -45,7 +47,9 @@ uploadApkUrl ="uploadApkUrl"
 patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
 }
 ```
+
 -在app中合成
+
             ```
             String newfilepath;
             String oldfilepath;
