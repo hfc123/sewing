@@ -4,6 +4,7 @@
 implementation 'com.github.hfc123.sewing:sewinglib:v1.0.3'
 ```
 ```
+classpath 'io.sigpipe:jbsdiff:1.0'
 classpath "com.github.hfc123.sewing:sewing-plugin:v1.0.3"
 ```
 # 功能
