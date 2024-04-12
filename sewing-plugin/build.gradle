@@ -1,8 +1,10 @@
 apply plugin: 'groovy'
 apply plugin: 'java-library'
 apply plugin: 'com.github.dcendents.android-maven'
+
 group='com.github.hfc123.sewing-plugin'
-version = '1.0'
+
+version = '1.0.0'
 
 targetCompatibility = JavaVersion.VERSION_1_8
 sourceCompatibility = JavaVersion.VERSION_1_8

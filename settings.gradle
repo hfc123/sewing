@@ -2,5 +2,5 @@
 include ':app'
 rootProject.name = "sewing"
 include ':sewinglib'
-include ':hugo-plugin'
+include ':sewing-plugin'
 
