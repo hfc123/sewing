@@ -1,22 +1,22 @@
 [English](README.md) | **简体中文**
 # 导入
-...
+```
 implementation 'com.github.hfc123.sewing:sewinglib:v1.0.3'
-...
-...
+```
+```
 classpath "com.github.hfc123.sewing:sewing-plugin:v1.0.3"
-...
+```
 # 功能
 - android 拆分包升级的功能
 # 使用
-...
+```
 //配置gradle插件
 plugins {
 id 'com.android.application'
 id 'sewing'
 }
-...
-...
+```
+```
 //设置参数
 sewing{
 enabled true
@@ -43,9 +43,9 @@ uploadUrl = "uploadurl"
 uploadApkUrl ="uploadApkUrl"
 patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
 }
-...
+```
 -在app中合成
-            ...
+            ```
             String newfilepath;
             String oldfilepath;
             String patchpath;
@@ -67,4 +67,4 @@ patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
             }
         });
         pachAsyncTask.execute();
-        ...
+        ```

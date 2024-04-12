@@ -1,22 +1,24 @@
 **English** | [简体中文](README_CN.md)
 
 # loading plugin
-...
+```
 implementation 'com.github.hfc123.sewing:sewinglib:v1.0.3'
-...
-...
+```
+
+```
 classpath "com.github.hfc123.sewing:sewing-plugin:v1.0.3"
-...
+```
 # Function
 -Assembly and disassembly of Android split packages
 # Using
- ...
+ ```
  plugins {
  id 'com.android.application'
  id 'sewing'
  }
- ...
- ...
+ ```
+ 
+ ```
   //Set parameters
   sewing{
   enabled true
@@ -43,10 +45,10 @@ classpath "com.github.hfc123.sewing:sewing-plugin:v1.0.3"
   uploadApkUrl ="uploadApkUrl"
   patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
   }
- ...
+ ```
 -how to patch in app
  use this function
-  ...
+  ```
             String newfilepath;
             String oldfilepath;
             String patchpath;
@@ -68,4 +70,4 @@ classpath "com.github.hfc123.sewing:sewing-plugin:v1.0.3"
             }
         });
         pachAsyncTask.execute();
-  ...
+  ```
