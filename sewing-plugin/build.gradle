@@ -1,0 +1,20 @@
+apply plugin: 'groovy'
+apply plugin: 'java-library'
+group='com.github.hfc123.sewing'
+version = '1.0'
+
+targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    google()
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:4.2.2'
+    implementation files('libs\\jbsdiff.jar')
+}

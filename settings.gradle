@@ -1,3 +1,6 @@
 //include ':buildSrc'
 include ':app'
 rootProject.name = "sewing"
+include ':sewinglib'
+include ':hugo-plugin'
+

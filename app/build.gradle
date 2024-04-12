@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'sewing'
 }
 
 android {
@@ -26,10 +27,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-}
-plugins {
-    id 'com.android.application'
-    id 'sewing'
 }
 apply plugin: 'com.github.dcendents.android-maven'
 
