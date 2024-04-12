@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.application'
-//    id 'sewing'
+    id 'sewing'
 }
 
 android {
@@ -29,30 +29,32 @@ android {
     }
 }
 apply plugin: 'com.github.dcendents.android-maven'
-
-//sewing{
-//    enabled true
-//    newFilePath "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\new.apk"
-//    oldFilePath "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\old.apk"
-//    patchFilePath "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
-//    //uploadApkUrl
-//}
-//
-//makepatch{
-//    newFilePath="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\new.apk"
-//    oldFilePath="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\old.apk"
-//    patchFilePath="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
-//}
-//patchTask{
-//    newFilePath2="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\new.apk"
-//    oldFilePath ="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\old.apk"
-//    patchFilePath ="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
-//}
-//uploadTask{
-//    uploadUrl = "uploadurl"
-//    uploadApkUrl ="uploadApkUrl"
-//    patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
-//}
+//Set parameters
+sewing{
+    enabled true
+    newFilePath "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\new.apk"
+    oldFilePath "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\old.apk"
+    patchFilePath "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
+    //uploadApkUrl
+}
+//Generate split package
+makepatch{
+    newFilePath="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\new.apk"
+    oldFilePath="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\old.apk"
+    patchFilePath="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
+}
+//Assembly and disassembly of packages
+patchTask{
+    newFilePath2="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\new.apk"
+    oldFilePath ="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\old.apk"
+    patchFilePath ="D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
+}
+//Upload split package
+uploadTask{
+    uploadUrl = "uploadurl"
+    uploadApkUrl ="uploadApkUrl"
+    patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
+}
 
 dependencies {
 
