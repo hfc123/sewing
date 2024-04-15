@@ -48,7 +48,7 @@ patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
 }
 ```
 
--在app中合成
+- 在app中合成
 
             ```
             String newfilepath;
