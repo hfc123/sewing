@@ -1,5 +1,7 @@
 **English** | [简体中文](README_CN.md)
 
+[![](https://jitpack.io/v/hfc123/sewing.svg)](https://jitpack.io/#hfc123/sewing)
+
 # loading plugin
 ```
 implementation 'com.github.hfc123.sewing:sewinglib:v1.0.3'
