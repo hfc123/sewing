@@ -10,7 +10,7 @@ classpath 'io.sigpipe:jbsdiff:1.0'
 classpath "com.github.hfc123.sewing:sewing-plugin:v1.0.3"
 ```
 # Function
--Assembly and disassembly of Android split packages
+- Assembly and disassembly of Android split packages
 # Using
  ```
  plugins {
@@ -47,7 +47,7 @@ classpath "com.github.hfc123.sewing:sewing-plugin:v1.0.3"
   patchFilePath = "D:\\workspace2\\githubdownLoad\\Sewing2\\files\\patch.patch"
   }
  ```
--how to patch in app
+- how to patch in app
  use this function
 
   ```
